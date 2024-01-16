@@ -49,6 +49,8 @@ public class FindCharacters {
             //once you access a word from the 'words' array
             //iterate through the word itself to get access to each character
             //hint: you'll access the word using the current index 'i'
+            
+            // this loop will find length of each word.
             for(int j = 0; j < words[i].length(); j++){
 
 
@@ -78,6 +80,7 @@ public class FindCharacters {
     public static void main(String[] args) {
         String[] words = {"leet","code"};
         char x = 'e';
+        System.out.println("Hello.. Finding Words Containing Character");
         System.out.println(findWordsContaining(words, x));
     }
 
